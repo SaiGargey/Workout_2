@@ -1,0 +1,149 @@
+/* Global styles
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  /* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } */
+  
+  /* Heading */
+  /* h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  } */
+  
+  /* h2, h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  } */
+  
+  /* Button styles */
+  /* button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e2e8f0;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  } */
+  
+  /* button:hover {
+    background-color: #cbd5e0;
+  }
+  
+  button.selected {
+    background-color: #3182ce;
+    color: white;
+  } */
+  
+  /* Exercise Form */
+  /* .exercise-form {
+    padding: 20px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exercise-form ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .exercise-form ul li {
+    margin-bottom: 5px;
+  } */
+   /* */ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.category-selection, .subcategory-selection, .exercise-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #000000;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ced4da;
+}
+
+button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.exercise-form {
+  padding: 20px;
+  background-color: #f1f3f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.exercise-description {
+  margin-bottom: 10px;
+}
+
+.exercise-tips h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.exercise-tips ul {
+  list-style: disc;
+  padding-left: 20px;
+}
